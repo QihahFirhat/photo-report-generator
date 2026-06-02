@@ -1,7 +1,7 @@
 # dilapidation-report-Digimap.Sdn.Bhd
 
 ## Dilapidation Survey Photo Report Generator
-===========================================
+
 Generates a professional Excel photo report from images in a .zip or .rar archive.
 
 Layout: A4 Landscape, 2 rows x 3 columns per sheet (6 images per page).
