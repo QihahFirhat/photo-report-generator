@@ -15,7 +15,7 @@ Dependencies:
     # macOS:         brew install unrar
 
 Usage:
-    python dilapidation_report.py <archive_path> [output_path]
+    `python dilapidation_report.py <archive_path> [output_path]`
 
 Example:
-    python dilapidation_report.py survey_photos.rar report.xlsx
+    `python dilapidation_report.py survey_photos.rar report.xlsx`
