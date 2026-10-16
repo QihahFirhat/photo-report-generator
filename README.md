@@ -37,8 +37,8 @@ Dilapidation-Survey/
 ├── generate_report.py
 ├── README.md
 ├── requirements.txt
-├── photos.zip                  # Example input
-└── dilapidation_report.xlsx    # Generated output
+├── photos.zip                  # Example input (not included in repo)
+└── dilapidation_report.xlsx    # Generated output (not included in repo)
 ```
 
 > Replace `generate_report.py` in the examples with your actual Python script filename.
