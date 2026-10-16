@@ -1,6 +1,6 @@
-# Dilapidation Survey Photo Report Generator
+# Photo Report Generator
 
-A Python automation tool that generates a **Dilapidation Survey Photo Report** in Microsoft Excel (`.xlsx`) from photographs stored in a ZIP or RAR archive.
+A Python automation tool that generates a **Photo Report** in Microsoft Excel (`.xlsx`) from photographs stored in a ZIP or RAR archive.
 
 The script extracts images, arranges them into formatted worksheets, and adds editable photo labels to simplify survey documentation.
 
@@ -33,12 +33,12 @@ The script extracts images, arranges them into formatted worksheets, and adds ed
 ## Project Structure
 
 ```text
-Dilapidation-Survey/
+Photo-Report/
 ├── generate_report.py
 ├── README.md
 ├── requirements.txt
 ├── photos.zip                  # Example input (not included in repo)
-└── dilapidation_report.xlsx    # Generated output (not included in repo)
+└── report.xlsx                 # Generated output (not included in repo)
 ```
 
 > Replace `generate_report.py` in the examples with your actual Python script filename.
@@ -103,13 +103,13 @@ python generate_report.py photos.zip
 Or choose an output name:
 
 ```bash
-python generate_report.py photos.zip survey_report.xlsx
+python generate_report.py photos.zip report.xlsx
 ```
 
 For RAR archives:
 
 ```bash
-python generate_report.py photos.rar survey_report.xlsx
+python generate_report.py photos.rar report.xlsx
 ```
 
 ### 3. Edit the report
